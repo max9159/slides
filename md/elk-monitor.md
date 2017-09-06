@@ -10,7 +10,6 @@ prepared by Andy Chen
 * ELK Stack
 * Kibana
 * Dashboard
-<!-- * Exception -->
 * Q&A
 
 ---
@@ -23,11 +22,12 @@ prepared by Andy Chen
 * Analytic and debugging
 
 Note:
-Server : memory/cpu high  
-Network : can not connect to partner or internal server.  
-Functional : Login, Register, Placebet, Performance high  
-Analytic : Check single member activity  
-Debug : We debug issue by logs but we have 20 more servers, time comsuming, now only seconds to search logs.
+
+* Server : memory/cpu high
+* Network : can not connect to partner or internal server.
+* Functional : Login, Register, Placebet, Performance high
+* Analytic : Check single member activity
+* Debug : We debug issue by logs but we have 20 more servers, time comsuming, now only seconds to search logs.
 
 ---
 
@@ -44,7 +44,10 @@ Debug : We debug issue by logs but we have 20 more servers, time comsuming, now 
 * Filter
 
 Note:
-Brief intro each sidebar menu in Kibana
+
+* Brief intro side menu in Kibana
+* Time, filter is General function, we will use it later.
+* Add filter button introduce
 
 ---
 
@@ -55,8 +58,10 @@ Brief intro each sidebar menu in Kibana
 * Register
 * Login
 * Unique member
+
 Note:
-MemberCode, Feature
+Dashboard display what happen in production
+Threshold is hard to determine
 
 ===
 
