@@ -318,6 +318,38 @@ Which is applicable to the HTML
 ```
 
 ===
+# COLOR  
+## MANIPULATION
+
+Let's suppose you want to create a hover effect for a button. You want the hover effect to have lighter color, but you don't know what its HEX color is.
+```css
+.link {
+    color:red;
+}
+.link:hover {
+    color: /*I don't know*/
+}
+```
+===
+In SASS, you just have to call in a built-in function:
+```css
+.link {
+    color:red;
+    &:hover {
+        color: lighten(red,10%); // will produce #ff3333
+    }
+}
+```
+or its opposite:
+```css
+.link {
+    color:red;
+    &:hover {
+        color: darken(red,10%); // will produce #cc0000
+    }
+}
+```
+===
 
 # MIXINS
 
