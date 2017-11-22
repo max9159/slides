@@ -30,7 +30,7 @@ What it does is that it enhances CSS codes so that it will look cleaner and in s
 
 Much like this guy.
 <div style="transform:scale(.6,.6);">
-![alt text](img/sass/Picture1.png "Logo Title Text 1")
+![alt text](../img/sass/Picture1.png "Logo Title Text 1")
 </div>
 
 ---
@@ -50,7 +50,7 @@ Much like this guy.
 ---
 
 <div style="transform:scale(1,1);">
-![alt text](img/sass/Screenshot_3.png "Logo Title Text 1")
+![alt text](../img/sass/Screenshot_3.png "Logo Title Text 1")
 </div>
 
 ---
@@ -63,14 +63,14 @@ Much like this guy.
 
 Consider this plain CSS code:
 <div style="transform:scale(1,1);">
-![alt text](img/sass/Screenshot_1.png "Logo Title Text 1")
+![alt text](../img/sass/Screenshot_1.png "Logo Title Text 1")
 </div>
 
 ---
 Now take a look at the new SASS file:
 
 <div style="transform:scale(1,1);">
-![alt text](img/sass/Screenshot_2.png "Logo Title Text 1")
+![alt text](../img/sass/Screenshot_2.png "Logo Title Text 1")
 </div>
 
 - Each section is now in its own file. It’s now easier to know where you can find the style rule.
@@ -92,7 +92,8 @@ Now take a look at the new SASS file:
 - abstract
 
 ---
-```scss
+
+```css
 sass/
 |– abstracts/
 |   |– *.scss             # Sass Variables, Mixins, Functions
@@ -111,6 +112,7 @@ sass/
 |
 `– common.scss              # Main Sass file
 ```
+
 ---
 ## SASS Architecture
 ### /Components

@@ -33,7 +33,7 @@ Note:
 
 ## ELK STACK
 
-![alt text](img/elk-monitor/elk-stack.jpg "Logo Title Text 1")
+![alt text](../img/elk-monitor/elk-stack.jpg "Logo Title Text 1")
 
 ---
 

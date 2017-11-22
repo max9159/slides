@@ -1,2 +1,2 @@
-* [ELK Monitor](elk-monitor.html)
-* [SASS](sass.html)
+* [ELK Monitor](/html/elk-monitor.html)
+* [SASS](/html/sass.html)
