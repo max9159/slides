@@ -1,5 +1,6 @@
 # What is SASS
 
+---
 
 ### SASS stands for Syntactically Awesome Style Sheets.
 
