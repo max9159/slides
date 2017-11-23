@@ -57,7 +57,7 @@ Much like this guy.
 
 ## WHY DID WE SEPARATE THE STYLE RULES INTO DIFFERENT FILES?
 
-- Stylesheet are more organized.
+- Stylesheets are more organized.
 
 ---
 
@@ -148,7 +148,7 @@ Contains style rules that are specific to a page.
 
 ---
 
-# SASS VARIABES
+# SASS VARIABLES
 
 Sometimes, we’d want to re-use a certain property like color, font size, etc. and want to make sure that it applies to the whole site globally. 
 
