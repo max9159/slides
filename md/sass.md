@@ -39,39 +39,39 @@ Much like this guy.
 
 ---
 
-- It makes maintenance much easier. 
-- We can turn off whole sections of codes to make the stylesheet size smaller.
-- It makes the CSS codes flexible
-- You can re-use styles
-- It makes everything look more organized
-- There’s little to no learning curve involved if all you want is a functional CSS.
+- Maintainable. 
+- Compact.
+- Flexible.
+- Re-Usable Rules.
+- Organized.
+- Low Learning Curve.
 
 
 ---
 
-<div style="transform:scale(1,1);">
+
 ![alt text](../img/sass/Screenshot_3.png "Logo Title Text 1")
-</div>
+
 
 ---
 
-## HOW DID WE SEPARATE THE STYLE RULES INTO DIFFERENT FILES?
+## WHY DID WE SEPARATE THE STYLE RULES INTO DIFFERENT FILES?
 
-- As previously discussed, SASS makes the whole stylesheet more organized.
+- Stylesheet are more organized.
 
 ---
 
 Consider this plain CSS code:
-<div style="transform:scale(1,1);">
+
 ![alt text](../img/sass/Screenshot_1.png "Logo Title Text 1")
-</div>
+
 
 ---
 Now take a look at the new SASS file:
 
-<div style="transform:scale(1,1);">
+
 ![alt text](../img/sass/Screenshot_2.png "Logo Title Text 1")
-</div>
+
 
 - Each section is now in its own file. It’s now easier to know where you can find the style rule.
 
@@ -142,7 +142,7 @@ Contains style rules that are specific to a page.
 ## SASS Architecture
 ### /Abstract
 
- Will contain SASS files that doesn’t actually generate any CSS code, but contains important functions that are referred by the other files.
+ Will contain SASS files that doesn’t actually generate any CSS code, but contain important functions that are referred to by the other files.
 
  Mixins and functions would be included here.
 
@@ -187,7 +187,7 @@ input {
     background-color: #ff9200;
 }
 ```
-- Normally, we’d have to find each and every CSS rules were we used the old value (#FF9200) and change it one by one. 
+- Normally, we’d have to find each and every CSS rules where we used the old value (#FF9200) and change it one by one. 
 
 ---
 - With SASS, we can just assign that color to a variable:
