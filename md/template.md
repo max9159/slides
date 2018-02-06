@@ -2,6 +2,9 @@
 
 prepare by Andy Chen
 
+Note:
+Hi i'm note, please press `s` to see note
+
 ---
 
 ## Agenda
