@@ -9,14 +9,15 @@
 1. Difficult to build new environment
 
 Note:
+
 - Difficult to build new environment - 1~2 day(s)
-    - Apply new server required effort for finding last apply info and reinstall every software and settings
-    - Although VM image template could achieve the same goal, MIS is unable to maintain all BU's image. By using private cloud IT could maintain their own image in version control
+  - Apply new server required effort for finding last apply info and reinstall every software and settings
+  - Although VM image template could achieve the same goal, MIS is unable to maintain all BU's image. By using private cloud IT could maintain their own image in version control
 - Slow for applying resource and adjust settings - MIS-1241 (5 days),  MIS-1230 (1 month)
-    - too many processes (Finding document, inaccurate assessment, Approve flow, Server spec adjustment multiple times, firewall....)
-    -  Limited resource and free but unreleased resource lead to tight assessment and bargain. It caused more repeated flow
+  - too many processes (Finding document, inaccurate assessment, Approve flow, Server spec adjustment multiple times, firewall....)
+  - Limited resource and free but unreleased resource lead to tight assessment and bargain. It caused more repeated flow
 - Unable to know Server/Application status 
-    - e.g. After QAT deployment required one by one manually check
+  - e.g. After QAT deployment required one by one manually check
 
 ---
 
@@ -24,7 +25,7 @@ Note:
 
 1. Build a private cloud for experimental side projects
     - ETA : 2 week
-    - Resolve Issue : Unable to know Server/Application status
+    - Resolve Issue : Slow for applying resource and adjust settings
     - Require resource : 2 linux + 2 windows machine
 
 1. Integrate monitoring and docker into private cloud
@@ -45,7 +46,7 @@ Note:
 - Max Chen
 - Jamie Chien
 - Max Chou
-- Alex
+- Alex Wang
 
 ---
 
