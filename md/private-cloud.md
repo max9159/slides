@@ -5,7 +5,7 @@
 ## Issues
 
 1. Slow for applying resource and adjust settings
-1. Unable to know Server/Application status
+1. Unable to know all Servers/Applications status instantly
 1. Difficult to build new environment
 
 Note:
